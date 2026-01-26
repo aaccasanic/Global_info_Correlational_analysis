@@ -177,16 +177,53 @@ Each figure includes:
 
 ## 📸 Heatmap Gallery
 
+### **Economy Correlations**
 <p align="center">
   <img src="visuals/heatmaps/economy_health.png" width="32%">
-  <img src="visuals/heatmaps/education_environment.png" width="32%">
-  <img src="visuals/heatmaps/health_demography.png" width="32%">
+  <img src="visuals/heatmaps/economy_education.png" width="32%">
+  <img src="visuals/heatmaps/economy_demography.png" width="32%">
 </p>
 
 <p align="center">
-  <img src="visuals/heatmaps/demography_environment.png" width="32%">
-  <img src="visuals/heatmaps/environment_geopolitics.png" width="32%">
+  <img src="visuals/heatmaps/economy_environment.png" width="32%">
   <img src="visuals/heatmaps/economy_geopolitics.png" width="32%">
+</p>
+
+---
+
+### **Health Correlations**
+<p align="center">
+  <img src="visuals/heatmaps/health_education.png" width="32%">
+  <img src="visuals/heatmaps/health_demography.png" width="32%">
+  <img src="visuals/heatmaps/health_environment.png" width="32%">
+</p>
+
+<p align="center">
+  <img src="visuals/heatmaps/health_geopolitics.png" width="32%">
+</p>
+
+---
+
+### **Education Correlations**
+<p align="center">
+  <img src="visuals/heatmaps/education_demography.png" width="32%">
+  <img src="visuals/heatmaps/education_environment.png" width="32%">
+  <img src="visuals/heatmaps/education_geopolitics.png" width="32%">
+</p>
+
+---
+
+### **Demography Correlations**
+<p align="center">
+  <img src="visuals/heatmaps/demography_environment.png" width="32%">
+  <img src="visuals/heatmaps/demography_geopolitics.png" width="32%">
+</p>
+
+---
+
+### **Environment ↔ Geopolitics**
+<p align="center">
+  <img src="visuals/heatmaps/environment_geopolitics.png" width="32%">
 </p>
 
 ### 5. **📌 Results Summary**
