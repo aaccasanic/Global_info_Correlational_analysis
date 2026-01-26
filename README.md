@@ -21,7 +21,9 @@ The objective is to uncover high-level structural patterns, identify strong and 
 
 </details>
 
-### 1. **📊 [Overview](#overview)**
+<a id="overview"></a>
+### 1. **📊 Overview**
+
   This project analyzes relationships across six major domains using global data:
 - Economy
 - Health
@@ -31,7 +33,8 @@ The objective is to uncover high-level structural patterns, identify strong and 
 - Geopolitics
   The analysis computes pairwise correlation matrices between every domain combination and visualizes them using annotated heatmaps. This approach highlights structural dependencies, contrasts, and unexpected weak interactions within the dataset.
 
-### 2. **🔥 [Key Findings](#key-findings) (High-Level)**
+<a id="key-findings"></a>
+### 2. **🔍 Key Findings**
  
 **Strongest Domain Relationships**
 - Education ↔ Health: The most consistent and strongest correlations.
@@ -47,7 +50,9 @@ The objective is to uncover high-level structural patterns, identify strong and 
 - Education ↔ Geopolitics: Minimal correlations.
   Full summary and numerical results are included within the *.ipynb* notebook.
   
-### 3. **📌 [Methodology](#methodology)**
+<a id="methodology"></a>
+### 3. **🧪 Methodology**
+
   **Data Preparation**
 - Filtering for numeric variables
 - Type normalization (e.g., handling thousands separators, numeric strings)
@@ -63,7 +68,9 @@ The objective is to uncover high-level structural patterns, identify strong and 
 - Consistent color scaling between -1 and +1
 - Labeling for easy interpretation
 
-### 4. **📈 [Visualization Outputs](#visualization-outputs)**
+<a id="visualization-outputs"></a>
+### 4. **🖼️ Visualization Outputs**
+
 The repository includes 15 heatmaps covering all combinations of:
 - Economy
 - Health
@@ -78,7 +85,9 @@ Each figure includes:
 - Clear labeling of rows and columns
 - Automated sizing for readability
 
-### 5. **🧠 [Results Summary](#results-summary)**
+<a id="results-summary"></a>
+### 5. **📌 Results Summary**
+
 Key global drivers identified across domains:
 - Life expectancy
 - Infant and maternal mortality
@@ -97,7 +106,8 @@ Weak or inconsistent drivers:
 
 A compact final summary table is available within the notebook.
 
-### 6. **🔬 [Next Steps](#next-steps)** (Recommended Analysis)
+<a id="next-steps"></a>
+### 6. **🚀 Next Steps**
 
 A. **Enhanced Metrics**
 
@@ -121,7 +131,8 @@ C. **Advanced Modeling**
 D. **Composite Index Construction**
 Develop a cross-domain index summarizing multi-dimensional development.
 
-### 7. **📁 [Repository Structure](#repository-structure)**
+<a id="repository-structure"></a>
+### 7. **📁 Repository Structure**
 
 ```
 .
@@ -145,7 +156,9 @@ Develop a cross-domain index summarizing multi-dimensional development.
 
 ```
 
-### 8. **🚀 [Requirements](#requirements)**
+<a id="requirements"></a>
+### 8. **📦 Requirements**
+
 You may include a separate requirements.txt, but key dependencies typically include:
 
 - pandas
@@ -155,7 +168,9 @@ You may include a separate requirements.txt, but key dependencies typically incl
 - seaborn
 - jupyter
 
-### **📬 9. [Contact](#contact)**
+<a id="contact"></a>
+### 9. **📨 Contact**
+
 If you want enhancements, dashboards, or an extended statistical report, feel free to reach out or open an issue.
 Gmail: *aacccasanic@gmail.com*
 
