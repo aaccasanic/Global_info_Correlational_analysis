@@ -21,7 +21,7 @@ The objective is to uncover high-level structural patterns, identify strong and 
 
 </details>
 
-### 1. **📊 Overview**
+### 1. **📊 [Overview]#overview**
   This project analyzes relationships across six major domains using global data:
 - Economy
 - Health
