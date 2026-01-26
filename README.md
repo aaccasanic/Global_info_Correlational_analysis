@@ -116,6 +116,7 @@ Develop a cross-domain index summarizing multi-dimensional development.
 
 ### 7. Repository Structure
 
+```
 .
 ├── data/
 │   ├── raw/            # Original datasets
@@ -134,6 +135,8 @@ Develop a cross-domain index summarizing multi-dimensional development.
 │   └── utils/          # Supporting helper functions
 │
 └── README.md
+
+```
 
 ### 8. Requirements
 You may include a separate requirements.txt, but key dependencies typically include:
