@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+
 # Global Correlation Analysis: Cross-Domain Insights from World Data
 This repository contains a comprehensive analytical exploration of cross-domain relationships across multiple global indicators. The project examines how socioeconomic, demographic, environmental, health, education, and geopolitical variables interact through correlation analysis and visual inspection.
 
@@ -35,20 +37,104 @@ The objective is to uncover high-level structural patterns, identify strong and 
 
 <a id="key-findings"></a>
 ### 2. **🔍 Key Findings**
- 
-**Strongest Domain Relationships**
-- Education ↔ Health: The most consistent and strongest correlations.
-- Health ↔ Demography: High correlations around mortality, fertility, and life expectancy.
-- Demography ↔ Environment: Population and urbanization strongly linked to CO₂ emissions.
 
-**Moderate Relationships**
-- Environment ↔ Geopolitics: Larger countries and military forces show higher emissions.
-- Economy ↔ Environment: GDP strongly correlates with CO₂ emissions and population scale.
+The correlation analysis reveals structural relationships across global socioeconomic, demographic, environmental, health, and geopolitical dimensions. Beyond numerical values, the patterns align with established global development theories and can be interpreted as follows:
 
-**Weak Relationships**
-- Economy ↔ Health / Education: Tax, CPI, unemployment, and similar indicators show low predictive value.
-- Education ↔ Geopolitics: Minimal correlations.
-  Full summary and numerical results are included within the *.ipynb* notebook.
+---
+
+| Domain Pair | Relationship Strength | Key Indicators |
+|-------------|------------------------|----------------|
+| Education ↔ Health | Very Strong | Literacy, Life Expectancy |
+| Health ↔ Demography | Strong | Birth Rate, Mortality |
+| Demography ↔ Environment | Moderate–Strong | Population, CO₂ |
+
+## **2.1 Strongest Domain Relationships**
+
+### **Education ↔ Health (Strongest Consistency)**
+The most robust and recurring pattern across all 15 matrices.
+
+**Why this happens**
+- Education increases health literacy and preventative behavior.  
+- Higher educational attainment correlates with greater income and healthcare access.  
+- Educated populations show lower maternal and infant mortality.  
+- Strong education systems tend to co-exist with strong healthcare systems.
+
+**Interpretation:** Education acts as an upstream driver of long-term health outcomes.
+
+---
+
+### **Health ↔ Demography (High-Intensity Correlations)**
+A cluster tightly connecting fertility, birth rate, mortality, and life expectancy.
+
+**Why this happens**
+- Early demographic transition → high fertility and high mortality.
+- Limited healthcare infrastructure disproportionately affects maternal and infant outcomes.
+- As demographic pressure decreases, life expectancy improves.
+
+---
+
+### **Demography ↔ Environment**
+Population and urban population strongly correlate with CO₂ emissions.
+
+**Why this happens**
+- Higher population increases total energy demand.
+- Urbanization intensifies transportation use, industrial activity, and pollution.
+- Environmental pressure is primarily a scale phenomenon.
+
+---
+
+### **Environment ↔ Geopolitics**
+Moderate correlations between emissions and land area / military size.
+
+**Why this happens**
+- Larger countries typically have larger populations and industrial bases.
+- Military size often correlates with national scale.
+
+---
+
+### **Economy ↔ Other Domains (Weakest Set of Correlations)**
+Most economic indicators—CPI, unemployment, tax revenue—show weak correlations with Education and Health.
+
+**Why this happens**
+- These variables are short-term and policy-driven.
+- They do not capture structural development (e.g., productivity, inequality).
+- GDP is the only economic metric with strong cross-domain impacts (emissions, population scale).
+
+---
+
+## **2.2 Strengths of This Analysis**
+
+- Clear interpretability through correlation matrices and heatmaps.  
+- Comprehensive cross-domain coverage (15 pairs).  
+- Consistency across development-related clusters.  
+- Alignment with demographic transition theory and global development literature.  
+- Effective for hypothesis generation and exploratory modeling.
+
+---
+
+## **2.3 Limitations and Weaknesses**
+
+- Correlation does not imply causation (directionality not established).  
+- Scale effects (population, GDP, land area) may inflate correlations.  
+- Economic indicators selected are short-term and volatile.  
+- Data quality varies across countries (missing values, measurement differences).  
+- Pearson correlation only captures linear relationships.
+
+---
+
+## **2.4 Recommendations for Future Analysis**
+
+- Add structural economic indicators (GDP per capita, GINI, HDI).  
+- Normalize scale-heavy indicators (log-transform population and emissions).  
+- Apply PCA to capture latent global development dimensions.  
+- Perform clustering to classify countries into development archetypes.  
+- Explore non-linear relationships using Spearman or Kendall correlation.  
+- Use causal inference methods (SEM, DAGs, regressions) to explore directionality.
+
+---
+
+**Key takeaway:**  
+Global development follows a clear structural axis—**Education → Health → Demography**—with environmental impact driven largely by population scale. Economic indicators in this dataset have limited explanatory power except for GDP.
   
 <a id="methodology"></a>
 ### 3. **🧪 Methodology**
@@ -84,6 +170,10 @@ Each figure includes:
 - Uniform color scale
 - Clear labeling of rows and columns
 - Automated sizing for readability
+
+<p align="center">
+<img src="visuals/heatmaps/education_health.png" width="600">
+</p>
 
 <a id="results-summary"></a>
 ### 5. **📌 Results Summary**
