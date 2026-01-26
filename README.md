@@ -69,7 +69,7 @@ The objective is to uncover high-level structural patterns, identify strong and 
 - Labeling for easy interpretation
 
 <a id="visualization-outputs"></a>
-### 4. **🖼️ Visualization Outputs**
+### 4. **📈 Visualization Outputs**
 
 The repository includes 15 heatmaps covering all combinations of:
 - Economy
