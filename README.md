@@ -40,6 +40,10 @@ The objective is to uncover high-level structural patterns, identify strong and 
 
 The correlation analysis reveals structural relationships across global socioeconomic, demographic, environmental, health, and geopolitical dimensions. Beyond numerical values, the patterns align with established global development theories and can be interpreted as follows:
 
+<p align="center">
+<img src="visuals/correlation-coefficient.webp" width="600">
+</p>
+
 ---
 
 | Domain Pair | Relationship Strength | Key Indicators |
@@ -171,11 +175,20 @@ Each figure includes:
 - Clear labeling of rows and columns
 - Automated sizing for readability
 
+## 📸 Heatmap Gallery
+
 <p align="center">
-<img src="visuals/heatmaps/education_health.png" width="600">
+  <img src="visuals/heatmaps/economy_health.png" width="32%">
+  <img src="visuals/heatmaps/education_environment.png" width="32%">
+  <img src="visuals/heatmaps/health_demography.png" width="32%">
 </p>
 
-<a id="results-summary"></a>
+<p align="center">
+  <img src="visuals/heatmaps/demography_environment.png" width="32%">
+  <img src="visuals/heatmaps/environment_geopolitics.png" width="32%">
+  <img src="visuals/heatmaps/economy_geopolitics.png" width="32%">
+</p>
+
 ### 5. **📌 Results Summary**
 
 Key global drivers identified across domains:
