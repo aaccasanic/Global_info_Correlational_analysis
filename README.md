@@ -1,9 +1,24 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 
-# Global Correlation Analysis: Cross-Domain Insights from World Data
-This repository contains a comprehensive analytical exploration of cross-domain relationships across multiple global indicators. The project examines how socioeconomic, demographic, environmental, health, education, and geopolitical variables interact through correlation analysis and visual inspection.
+# Global Correlation Analysis
 
-The objective is to uncover high-level structural patterns, identify strong and weak relationships between domains, and provide a foundation for further modeling or statistical research.
+Choose a language / Elige un idioma:
+
+- [English](README.en.md)
+- [Español](README.es.md)
+
+This repository now includes a bilingual documentation setup. Use the links above to open the fully revised README in English or Spanish.
+
+This landing page keeps the original draft below for reference, while the complete updated documentation lives in the dedicated language files.
+
+## Quick Links
+
+- [English README](README.en.md)
+- [README en Español](README.es.md)
+- [Notebook](Global_Correlation_Analysis.ipynb)
+- [Heatmaps](visuals/heatmaps)
+
+## Legacy Draft
 
 ## Contents
 <details>
@@ -313,4 +328,3 @@ You may include a separate requirements.txt, but key dependencies typically incl
 
 If you want enhancements, dashboards, or an extended statistical report, feel free to reach out or open an issue.
 Gmail: *aacccasanic@gmail.com*
-
